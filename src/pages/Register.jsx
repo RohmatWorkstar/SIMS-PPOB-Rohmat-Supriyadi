@@ -105,7 +105,7 @@ const Register = () => {
             <div className="w-full lg:w-1/2 flex items-center justify-center bg-white p-8">
                 <div className="w-full max-w-md">
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center flex justify-center gap-2">
-                        <img src={"/src/assets/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
+                        <img src={"/assets/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
                     </h1>
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">
                         Lengkapi Data Untuk <br /> Membuat Akun

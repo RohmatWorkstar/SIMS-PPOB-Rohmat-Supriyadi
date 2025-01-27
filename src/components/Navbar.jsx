@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="text-lg font-semibold flex gap-3 text-black">
                     <Link className="flex gap-2" to={"/"}>
                         {" "}
-                        <img src={"src/assets/Logo.png"} /> SIMS PPOB
+                        <img src={"/assets/Logo.png"} /> SIMS PPOB
                     </Link>
                 </div>
 
