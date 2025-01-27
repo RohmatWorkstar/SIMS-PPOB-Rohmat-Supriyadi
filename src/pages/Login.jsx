@@ -68,7 +68,7 @@ function Login() {
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center flex justify-center gap-2">
                         <img src={"/assets/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
                     </h1>
-                    <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Masuk Atau Buat Akun Untuk memulai</h1>
+                    <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Masuk Atau Buat Akun <br/> Untuk memulai</h1>
                     <form onSubmit={handleLogin} className="space-y-4">
                         <div>
                             <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">
