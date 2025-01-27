@@ -66,7 +66,7 @@ function Login() {
             <div className="w-full lg:w-1/2 flex items-center justify-center bg-white p-8">
                 <div className="w-full max-w-md">
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center flex justify-center gap-2">
-                        <img src={"/public/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
+                        <img src={"/src/assets/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
                     </h1>
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Login to your Account</h1>
                     <form onSubmit={handleLogin} className="space-y-4">
@@ -122,7 +122,7 @@ function Login() {
 
             {/* Right Section: Image */}
             <div className="w-full lg:w-1/2 h-screen hidden lg:block">
-                <img src={"public/Illustrasi Login.png"} alt="Illustration" className="w-full h-full object-cover" />
+                <img src={"/src/assets/Illustrasi Login.png"} alt="Illustration" className="w-full h-full object-cover" />
             </div>
         </div>
     );
