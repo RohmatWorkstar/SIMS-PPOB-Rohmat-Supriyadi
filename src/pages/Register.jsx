@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import API from "../services/api";
 
 const Register = () => {
-    
     // tampung nilai kedalam usestate
     const [formData, setFormData] = useState({
         email: "",
@@ -117,7 +116,7 @@ const Register = () => {
 
                         <div>
                             <label htmlFor="password" className="block text-gray-700 text-sm font-medium mb-2">
-                               Buat Password
+                                Buat Password
                             </label>
                             <div className="flex items-center border border-gray-300 rounded-lg px-3 py-2">
                                 <FaLock className="text-gray-300 mr-2" />
@@ -133,14 +132,7 @@ const Register = () => {
                             </label>
                             <div className="flex items-center border border-gray-300 rounded-lg px-3 py-2">
                                 <FaLock className="text-gray-300 mr-2" />
-                                <input
-                                    type={showConfirmPassword ? "text" : "password"}
-                                    id="confirmPassword"
-                                    value={formData.confirmPassword}
-                                    onChange={handleChange}
-                                    className="w-full focus:outline-none"
-                                    placeholder="Konfirmasi password"
-                                />
+                                <input type={showConfirmPassword ? "text" : "password"} id="confirmPassword" value={formData.confirmPassword} onChange={handleChange} className="w-full focus:outline-none" placeholder="Konfirmasi password" />
                                 {renderPasswordToggle(showConfirmPassword, setShowConfirmPassword)}
                             </div>
                             {errors.confirmPassword && <p className="text-red-500 text-sm mt-1">{errors.confirmPassword}</p>}
