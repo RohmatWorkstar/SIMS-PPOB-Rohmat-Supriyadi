@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { logout } from "../store/authSlice";
 import API from "../services/api";
-import defaultProfilePic from "../assets/Profile Photo.png";
+import defaultProfilePic from "/assets/Profile Photo.png";
 import { FaEnvelope, FaUser, FaUserAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";

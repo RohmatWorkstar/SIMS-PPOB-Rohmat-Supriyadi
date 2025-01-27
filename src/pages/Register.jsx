@@ -170,7 +170,7 @@ const Register = () => {
             </div>
 
             <div className="w-full lg:w-1/2 h-screen hidden lg:block">
-                <img src={"/public/Illustrasi Login.png"} alt="Illustration" className="w-full h-full object-cover" />
+                <img src={"/assets/Illustrasi Login.png"} alt="Illustration" className="w-full h-full object-cover" />
             </div>
         </div>
     );
