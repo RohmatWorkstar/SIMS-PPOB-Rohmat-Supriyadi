@@ -68,7 +68,7 @@ function Login() {
                     <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center flex justify-center gap-2">
                         <img src={"/assets/Logo.png"} alt="Logo" className="h-8" /> SIMS PPOB
                     </h1>
-                    <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Login to your Account</h1>
+                    <h1 className="text-2xl font-bold mb-6 text-gray-800 text-center">Masuk Atau Buat Akun Untuk memulai</h1>
                     <form onSubmit={handleLogin} className="space-y-4">
                         <div>
                             <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">
@@ -107,7 +107,7 @@ function Login() {
                         </div>
                         {errors.general && <p className="text-red-500 text-sm mt-2">{errors.general}</p>}
                         <button type="submit" className="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition">
-                            Login
+                            Masuk
                         </button>
                     </form>
 
